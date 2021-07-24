@@ -1,4 +1,4 @@
-package reference;
+package practice;
 
 public class StudentTest {
 
