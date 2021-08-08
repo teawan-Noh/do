@@ -14,8 +14,8 @@ public class Student {
 	}
 	public Student(int id, String name) {
 		
-		studentName = name;
 		studentID = id;
+		studentName = name;
 		
 		korea = new Subject("국어");
 		math = new Subject("수학");
@@ -30,7 +30,7 @@ public class Student {
 	
 	public void showStudentInfo() {
 			int total = korea.getScore() +math.getScore(); 
-			System.out.println(studentName + "학생의 총점은" + total + "입니다");
+			System.out.println(studentName+ studentID + "학생의 총점은" + total + "입니다");
 	}
 	
 	
